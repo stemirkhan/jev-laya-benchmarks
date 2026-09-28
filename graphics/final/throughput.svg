@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+<title id="title">Скорость обработки потока</title><desc id="desc">Отдельный замер четырех локальных моделей на другой RTX 5090: три прохода по 480 пар. Jev не измерялся.</desc>
+<rect width="1600" height="480" fill="#ffffff"/>
+<g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#26333d">
+<text x="56" y="55" font-size="26" text-anchor="start" fill="#66737c" font-weight="400">Пар/с</text>
+<line x1="432" y1="94" x2="432" y2="417" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="432" y="453" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">0</text>
+<line x1="672" y1="94" x2="672" y2="417" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="672" y="453" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">50</text>
+<line x1="912" y1="94" x2="912" y2="417" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="912" y="453" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">100</text>
+<line x1="1152" y1="94" x2="1152" y2="417" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="1152" y="453" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">150</text>
+<line x1="1392" y1="94" x2="1392" y2="417" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="1392" y="453" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">200</text>
+<text x="56" y="136" font-size="27" text-anchor="start" fill="#26333d" font-weight="600">Laya Multilingual</text>
+<rect x="432" y="112" width="733.6600498705296" height="30" fill="#bc8958" />
+<text x="1181.6600498705297" y="137" font-size="29" text-anchor="start" fill="#26333d" font-weight="400">152,8</text>
+<text x="56" y="218" font-size="27" text-anchor="start" fill="#26333d" font-weight="400">BGE-reranker-v2-m3</text>
+<rect x="432" y="194" width="808.7163546997074" height="30" fill="#8190a1" />
+<text x="1256.7163546997074" y="219" font-size="29" text-anchor="start" fill="#26333d" font-weight="400">168,5</text>
+<text x="56" y="300" font-size="27" text-anchor="start" fill="#26333d" font-weight="400">Qwen3-Reranker-0.6B</text>
+<rect x="432" y="276" width="436.9200627274699" height="30" fill="#8190a1" />
+<text x="884.9200627274699" y="301" font-size="29" text-anchor="start" fill="#26333d" font-weight="400">91,0</text>
+<text x="56" y="382" font-size="27" text-anchor="start" fill="#26333d" font-weight="400">Qwen3-Reranker-8B</text>
+<rect x="432" y="358" width="98.48794911063982" height="30" fill="#8190a1" />
+<text x="546.4879491106399" y="383" font-size="29" text-anchor="start" fill="#26333d" font-weight="400">20,5</text>
+</g></svg>

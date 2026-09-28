@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "data_file": "benchmark-charts.data.json",
+  "data_sha256": "a871470420f9feca583c82f0fddd38eab1f5911081bd8607041c68b8a2805b52",
+  "renderer": {
+    "name": "SVG + sharp",
+    "sharp": "0.35.4",
+    "font": "Noto Sans",
+    "png_scale": 2
+  },
+  "charts": [
+    {
+      "name": "quality-rrf",
+      "title": "Изменение NDCG@10 после реранжирования кандидатов RRF",
+      "width": 1600,
+      "height": 582,
+      "observations": [
+        {
+          "dataset": "scifact",
+          "method": "rrf",
+          "model": "jev",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.08342494227685027,
+          "baseline_ndcg10": 0.6961727884296439,
+          "model_ndcg10": 0.7795977307064942
+        },
+        {
+          "dataset": "scifact",
+          "method": "rrf",
+          "model": "laya",
+          "metric": "ndcg_at_10_delta",
+          "value": -0.21548228743283182,
+          "baseline_ndcg10": 0.6961727884296439,
+          "model_ndcg10": 0.4806905009968121
+        },
+        {
+          "dataset": "scifact",
+          "method": "rrf",
+          "model": "bge",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.04511184330645823,
+          "baseline_ndcg10": 0.6961727884296439,
+          "model_ndcg10": 0.7412846317361022
+        },
+        {
+          "dataset": "scifact",
+          "method": "rrf",
+          "model": "qwen06",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.06603872364373509,
+          "baseline_ndcg10": 0.6961727884296439,
+          "model_ndcg10": 0.762211512073379
+        },
+        {
+          "dataset": "scifact",
+          "method": "rrf",
+          "model": "qwen8",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.08249746931544133,
+          "baseline_ndcg10": 0.6961727884296439,
+          "model_ndcg10": 0.7786702577450852
+        },
+        {
+          "dataset": "fiqa",
+          "method": "rrf",
+          "model": "jev",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.09998489978219621,
+          "baseline_ndcg10": 0.34053813729144766,
+          "model_ndcg10": 0.4405230370736439
+        },
+        {
+          "dataset": "fiqa",
+          "method": "rrf",
+          "model": "laya",
+          "metric": "ndcg_at_10_delta",
+          "value": -0.0849862664063557,
+          "baseline_ndcg10": 0.34053813729144766,
+          "model_ndcg10": 0.25555187088509196
+        },
+        {
+          "dataset": "fiqa",
+          "method": "rrf",
+          "model": "bge",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.06837325569761432,
+          "baseline_ndcg10": 0.34053813729144766,
+          "model_ndcg10": 0.408911392989062
+        },
+        {
+          "dataset": "fiqa",
+          "method": "rrf",
+          "model": "qwen06",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.07957251878824428,
+          "baseline_ndcg10": 0.34053813729144766,
+          "model_ndcg10": 0.42011065607969195
+        },
+        {
+          "dataset": "fiqa",
+          "method": "rrf",
+          "model": "qwen8",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.12479461331173808,
+          "baseline_ndcg10": 0.34053813729144766,
+          "model_ndcg10": 0.46533275060318574
+        },
+        {
+          "dataset": "nfcorpus",
+          "method": "rrf",
+          "model": "jev",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.041251396863886125,
+          "baseline_ndcg10": 0.33915063295081005,
+          "model_ndcg10": 0.3804020298146962
+        },
+        {
+          "dataset": "nfcorpus",
+          "method": "rrf",
+          "model": "laya",
+          "metric": "ndcg_at_10_delta",
+          "value": -0.049489032370778285,
+          "baseline_ndcg10": 0.33915063295081005,
+          "model_ndcg10": 0.28966160058003176
+        },
+        {
+          "dataset": "nfcorpus",
+          "method": "rrf",
+          "model": "bge",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.015487838976280588,
+          "baseline_ndcg10": 0.33915063295081005,
+          "model_ndcg10": 0.35463847192709064
+        },
+        {
+          "dataset": "nfcorpus",
+          "method": "rrf",
+          "model": "qwen06",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.022687462765751565,
+          "baseline_ndcg10": 0.33915063295081005,
+          "model_ndcg10": 0.3618380957165616
+        },
+        {
+          "dataset": "nfcorpus",
+          "method": "rrf",
+          "model": "qwen8",
+          "metric": "ndcg_at_10_delta",
+          "value": 0.031684349915575505,
+          "baseline_ndcg10": 0.33915063295081005,
+          "model_ndcg10": 0.37083498286638555
+        }
+      ],
+      "svg_sha256": "b4db6ea1501ff8d00fef7965b2cae2adc9cb651461742148e2b2c07d71aeafb5",
+      "png_sha256": "016dc47083a90dc452382274f6898dce26e8534dbae194ff3b9e78008090eb80"
+    },
+    {
+      "name": "latency",
+      "title": "Время реранжирования 20 документов",
+      "width": 1600,
+      "height": 672,
+      "observations": [
+        {
+          "model": "jev",
+          "metric": "list_latency_ms",
+          "p50": 1751.1743567883968,
+          "p95": 1962.507825484499,
+          "n": 2542
+        },
+        {
+          "model": "laya",
+          "metric": "list_latency_ms",
+          "p50": 91.53764747316018,
+          "p95": 146.4476091379765,
+          "n": 2542
+        },
+        {
+          "model": "bge",
+          "metric": "list_latency_ms",
+          "p50": 72.01118749799207,
+          "p95": 107.33735866378991,
+          "n": 2542
+        },
+        {
+          "model": "qwen06",
+          "metric": "list_latency_ms",
+          "p50": 142.7430349867791,
+          "p95": 223.68746928405008,
+          "n": 2542
+        },
+        {
+          "model": "qwen8",
+          "metric": "list_latency_ms",
+          "p50": 857.4598949635401,
+          "p95": 1216.696686710929,
+          "n": 2542
+        }
+      ],
+      "svg_sha256": "6c67102e3cd060abbaf7fcd88da3c35e965ad235c337aec2f3b646b1f96e892b",
+      "png_sha256": "9f743e2ca006702c00a9cd05d25b721d55fa6f2fb5cfb2fe5993ef1b48ffc543"
+    },
+    {
+      "name": "throughput",
+      "title": "Скорость обработки потока",
+      "width": 1600,
+      "height": 480,
+      "observations": [
+        {
+          "model": "laya",
+          "metric": "pairs_per_second",
+          "value": 152.845843723027,
+          "measured_pairs": 1440
+        },
+        {
+          "model": "bge",
+          "metric": "pairs_per_second",
+          "value": 168.48257389577236,
+          "measured_pairs": 1440
+        },
+        {
+          "model": "qwen06",
+          "metric": "pairs_per_second",
+          "value": 91.02501306822289,
+          "measured_pairs": 1440
+        },
+        {
+          "model": "qwen8",
+          "metric": "pairs_per_second",
+          "value": 20.518322731383297,
+          "measured_pairs": 1440
+        }
+      ],
+      "svg_sha256": "8dc4e6e3f74ef98f603a2908d7dbd82b2e0b9d968f5266f98bf46bf0d050452d",
+      "png_sha256": "6e87f36a706b95d14e175209508acb17abfd8671f816c44aba1bce67de4c88b8"
+    }
+  ]
+}

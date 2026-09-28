@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="582" viewBox="0 0 1600 582" role="img" aria-labelledby="title desc">
+<title id="title">Изменение NDCG@10 после реранжирования кандидатов RRF</title><desc id="desc">Разница NDCG@10 между моделью и исходным гибридным поиском. Ноль означает качество исходного поиска. Влево - снижение, вправо - рост. Это абсолютная разница, не процентное изменение.</desc>
+<rect width="1600" height="582" fill="#ffffff"/>
+<g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#26333d">
+<text x="56" y="137" font-size="28" text-anchor="start" fill="#26333d" font-weight="600">Jev 1.13</text>
+<text x="56" y="219" font-size="28" text-anchor="start" fill="#26333d" font-weight="600">Laya Multilingual</text>
+<text x="56" y="301" font-size="28" text-anchor="start" fill="#26333d" font-weight="400">BGE-reranker-v2-m3</text>
+<text x="56" y="383" font-size="28" text-anchor="start" fill="#26333d" font-weight="400">Qwen3-Reranker-0.6B</text>
+<text x="56" y="465" font-size="28" text-anchor="start" fill="#26333d" font-weight="400">Qwen3-Reranker-8B</text>
+<text x="561" y="55" font-size="30" text-anchor="middle" fill="#26333d" font-weight="600">SciFact</text>
+<line x1="469.79999999999995" y1="94" x2="469.79999999999995" y2="499" stroke="#e8edf0" stroke-width="1"/>
+<text x="469.79999999999995" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">-0,2</text>
+<line x1="591.4" y1="94" x2="591.4" y2="499" stroke="#bac3c9" stroke-width="2"/>
+<text x="591.4" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">0</text>
+<line x1="713" y1="94" x2="713" y2="499" stroke="#e8edf0" stroke-width="1"/>
+<text x="713" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">+0,2</text>
+<rect x="591.4" y="112" width="50.72236490432499" height="30" fill="#347f83" />
+<text x="654.122364904325" y="136" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,083</text>
+<rect x="460.38676924083825" y="194" width="131.01323075916173" height="30" fill="#bc8958" />
+<text x="448.38676924083825" y="218" font-size="25" text-anchor="end" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">-0,215</text>
+<rect x="591.4" y="276" width="27.42800073032663" height="30" fill="#8190a1" />
+<text x="630.8280007303266" y="300" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,045</text>
+<rect x="591.4" y="358" width="40.15154397539095" height="30" fill="#8190a1" />
+<text x="643.5515439753909" y="382" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,066</text>
+<rect x="591.4" y="440" width="50.158461343788304" height="30" fill="#8190a1" />
+<text x="653.5584613437883" y="464" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,082</text>
+<text x="955" y="55" font-size="30" text-anchor="middle" fill="#26333d" font-weight="600">FiQA</text>
+<line x1="863.8" y1="94" x2="863.8" y2="499" stroke="#e8edf0" stroke-width="1"/>
+<text x="863.8" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">-0,2</text>
+<line x1="985.4" y1="94" x2="985.4" y2="499" stroke="#bac3c9" stroke-width="2"/>
+<text x="985.4" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">0</text>
+<line x1="1107" y1="94" x2="1107" y2="499" stroke="#e8edf0" stroke-width="1"/>
+<text x="1107" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">+0,2</text>
+<rect x="985.4" y="112" width="60.7908190675754" height="30" fill="#347f83" />
+<text x="1058.1908190675754" y="136" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,100</text>
+<rect x="933.7283500249357" y="194" width="51.67164997506427" height="30" fill="#bc8958" />
+<text x="921.7283500249357" y="218" font-size="25" text-anchor="end" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">-0,085</text>
+<rect x="985.4" y="276" width="41.570939464149546" height="30" fill="#8190a1" />
+<text x="1038.9709394641495" y="300" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,068</text>
+<rect x="985.4" y="358" width="48.380091423252566" height="30" fill="#8190a1" />
+<text x="1045.7800914232525" y="382" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,080</text>
+<rect x="985.4" y="440" width="75.87512489353674" height="30" fill="#8190a1" />
+<text x="1073.2751248935367" y="464" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,125</text>
+<text x="1349" y="55" font-size="30" text-anchor="middle" fill="#26333d" font-weight="600">NFCorpus</text>
+<line x1="1257.8" y1="94" x2="1257.8" y2="499" stroke="#e8edf0" stroke-width="1"/>
+<text x="1257.8" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">-0,2</text>
+<line x1="1379.4" y1="94" x2="1379.4" y2="499" stroke="#bac3c9" stroke-width="2"/>
+<text x="1379.4" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">0</text>
+<line x1="1501" y1="94" x2="1501" y2="499" stroke="#e8edf0" stroke-width="1"/>
+<text x="1501" y="539" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">+0,2</text>
+<rect x="1379.4" y="112" width="25.080849293242636" height="30" fill="#347f83" />
+<text x="1416.4808492932427" y="136" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,041</text>
+<rect x="1349.3106683185667" y="194" width="30.08933168143335" height="30" fill="#bc8958" />
+<text x="1337.3106683185667" y="218" font-size="25" text-anchor="end" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">-0,049</text>
+<rect x="1379.4" y="276" width="9.416606097578551" height="30" fill="#8190a1" />
+<text x="1400.8166060975786" y="300" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,015</text>
+<rect x="1379.4" y="358" width="13.793977361576935" height="30" fill="#8190a1" />
+<text x="1405.193977361577" y="382" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,023</text>
+<rect x="1379.4" y="440" width="19.264084748669802" height="30" fill="#8190a1" />
+<text x="1410.66408474867" y="464" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">+0,032</text>
+</g></svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="672" viewBox="0 0 1600 672" role="img" aria-labelledby="title desc">
+<title id="title">Время реранжирования 20 документов</title><desc id="desc">У каждой модели две полосы на общей шкале: сверху бирюзовая медиана P50, снизу песочная P95. Время полного списка, 2542 измерения на модель. У Jev учитывается сеть и API OpenRouter; четыре локальные модели работают на RTX 5090. Первичный поиск не включен.</desc>
+<rect width="1600" height="672" fill="#ffffff"/>
+<g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#26333d">
+<text x="56" y="55" font-size="26" text-anchor="start" fill="#66737c" font-weight="400">20 документов · мс</text>
+<rect x="432" y="37" width="26" height="18" fill="#347f83" />
+<text x="472" y="55" font-size="26" text-anchor="start" fill="#26333d" font-weight="400">Медиана (P50)</text>
+<rect x="777" y="37" width="26" height="18" fill="#bc8958" />
+<text x="817" y="55" font-size="26" text-anchor="start" fill="#26333d" font-weight="400">P95</text>
+<line x1="432" y1="94" x2="432" y2="610" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="432" y="646" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">0</text>
+<line x1="650.1818181818182" y1="94" x2="650.1818181818182" y2="610" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="650.1818181818182" y="646" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">500</text>
+<line x1="868.3636363636364" y1="94" x2="868.3636363636364" y2="610" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="868.3636363636364" y="646" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">1 000</text>
+<line x1="1086.5454545454545" y1="94" x2="1086.5454545454545" y2="610" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="1086.5454545454545" y="646" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">1 500</text>
+<line x1="1304.7272727272727" y1="94" x2="1304.7272727272727" y2="610" stroke="#e8edf0" stroke-width="1.5"/>
+<text x="1304.7272727272727" y="646" font-size="24" text-anchor="middle" fill="#66737c" font-weight="400">2 000</text>
+<text x="56" y="153" font-size="28" text-anchor="start" fill="#26333d" font-weight="600">Jev 1.13 · API</text>
+<rect x="432" y="115" width="764.1488102349367" height="24" fill="#347f83" />
+<text x="1208.1488102349367" y="136" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">1 751,2</text>
+<rect x="432" y="149" width="856.3670511205087" height="24" fill="#bc8958" />
+<text x="1300.3670511205087" y="170" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">1 962,5</text>
+<text x="56" y="257" font-size="28" text-anchor="start" fill="#26333d" font-weight="600">Laya Multilingual</text>
+<rect x="432" y="219" width="39.943700715560794" height="24" fill="#347f83" />
+<text x="483.9437007155608" y="240" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">91,5</text>
+<rect x="432" y="253" width="63.90441126020795" height="24" fill="#bc8958" />
+<text x="507.90441126020795" y="274" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">146,4</text>
+<text x="56" y="361" font-size="28" text-anchor="start" fill="#26333d" font-weight="400">BGE-reranker-v2-m3</text>
+<rect x="432" y="323" width="31.423063635487438" height="24" fill="#347f83" />
+<text x="475.42306363548744" y="344" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">72,0</text>
+<rect x="432" y="357" width="46.83812014419925" height="24" fill="#bc8958" />
+<text x="490.83812014419925" y="378" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">107,3</text>
+<text x="56" y="465" font-size="28" text-anchor="start" fill="#26333d" font-weight="400">Qwen3-Reranker-0.6B</text>
+<rect x="432" y="427" width="62.28786981241268" height="24" fill="#347f83" />
+<text x="506.2878698124127" y="448" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">142,7</text>
+<rect x="432" y="461" width="97.60907750576735" height="24" fill="#bc8958" />
+<text x="541.6090775057673" y="482" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">223,7</text>
+<text x="56" y="569" font-size="28" text-anchor="start" fill="#26333d" font-weight="400">Qwen3-Reranker-8B</text>
+<rect x="432" y="531" width="374.1643178022721" height="24" fill="#347f83" />
+<text x="818.1643178022721" y="552" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">857,5</text>
+<rect x="432" y="565" width="530.922190564769" height="24" fill="#bc8958" />
+<text x="974.922190564769" y="586" font-size="25" text-anchor="start" fill="#26333d" font-weight="400" paint-order="stroke" stroke="#ffffff" stroke-width="8" stroke-linejoin="round">1 216,7</text>
+</g></svg>

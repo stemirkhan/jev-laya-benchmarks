@@ -1,0 +1,131 @@
+{
+  "projection": "explicit reviewed field allowlists; original raw artifacts are not redistributed",
+  "public_artifacts": {
+    "api-cost.json": {
+      "bytes": 7016,
+      "sha256": "6026e31b5c0fcffa8076449b13b6a8f6120db2183713b2f75d728f46022c731b"
+    },
+    "candidates/fiqa.pilot.bm25.jsonl.gz": {
+      "bytes": 1433,
+      "sha256": "21be662e1b6c9316a9f41de774df8465ac7901b7e9d6ec5dd2c53129a3f86228"
+    },
+    "candidates/fiqa.pilot.rrf.jsonl.gz": {
+      "bytes": 1242,
+      "sha256": "5db3706b13b920815f02034f4f2fcb6dff59f30c7eca511b15035eee05341248"
+    },
+    "candidates/fiqa.test.bm25.jsonl.gz": {
+      "bytes": 189738,
+      "sha256": "6b67cb193008f9af40495ae09fcf281fbe4d7aac002bb09c560b306da4d95234"
+    },
+    "candidates/fiqa.test.rrf.jsonl.gz": {
+      "bytes": 154109,
+      "sha256": "0fcd5d2afdda43ae08a58549777ad89d28ad59f4358e0bba567454149f734e14"
+    },
+    "candidates/nfcorpus.pilot.bm25.jsonl.gz": {
+      "bytes": 1074,
+      "sha256": "316318118a5c809cde84d3e06b601ef36c090bd48e9013695c595bc3b6aad81d"
+    },
+    "candidates/nfcorpus.pilot.rrf.jsonl.gz": {
+      "bytes": 1177,
+      "sha256": "dd753170ebcaefccf20673d9ab027876a6c4ce4507c5bda10152a6b2205e46cd"
+    },
+    "candidates/nfcorpus.test.bm25.jsonl.gz": {
+      "bytes": 72790,
+      "sha256": "5bdb0beada278f69a4570d56552f29aaeb5697a51fb4712deed7c4f2f5f4c726"
+    },
+    "candidates/nfcorpus.test.rrf.jsonl.gz": {
+      "bytes": 65527,
+      "sha256": "13e2939e7fc07357af13a96a2df644848c5f05718400863701fd3f8d81fcad7a"
+    },
+    "candidates/scifact.pilot.bm25.jsonl.gz": {
+      "bytes": 1525,
+      "sha256": "20d747e3bf0aba6f5170de11815a8b64c8d0f118375609c8b02c77e7b2dbbea4"
+    },
+    "candidates/scifact.pilot.rrf.jsonl.gz": {
+      "bytes": 1376,
+      "sha256": "3c850822ed5700f68ab5b234234bec3c638aa404083808cc6634003d84f3b9d0"
+    },
+    "candidates/scifact.test.bm25.jsonl.gz": {
+      "bytes": 90967,
+      "sha256": "579ec7bff1669f067a66aeebc187e06fe9cf81a64fbf17c1a9f28a8c817ea8ad"
+    },
+    "candidates/scifact.test.rrf.jsonl.gz": {
+      "bytes": 74549,
+      "sha256": "eb210e72cf8e8be54266f65064e3fa83644274ac5c6821dbbf772174fcf6fff0"
+    },
+    "cpu-retrieval.json": {
+      "bytes": 1696,
+      "sha256": "86c779fc8587f587d0fae687a5360af7f29844daa3eae2b190a9759abac0a201"
+    },
+    "cpu-retrieval.jsonl.gz": {
+      "bytes": 33788,
+      "sha256": "3571c7cf878f2a5b6388ec219f9a1aadd2ead73092a5f7fea6b26ec6b13d2a93"
+    },
+    "main/bge.jsonl.gz": {
+      "bytes": 577575,
+      "sha256": "036976885328f21c48b1c7fcc5a84b0b7cebfe9e3ab4eaa6fcbe17a5f765a9fd"
+    },
+    "main/jev-openrouter.jsonl.gz": {
+      "bytes": 445671,
+      "sha256": "aef5229688c93301be79f3c94958afcb3cdb6a26d87f1b07e59311a22d6fa79b"
+    },
+    "main/laya-multi.jsonl.gz": {
+      "bytes": 920655,
+      "sha256": "eb515a17825f1f6f7c4f81bfdc4915c4e2f8e22aaefe0f07c1e3b6ff323adf86"
+    },
+    "main/qwen-0.6b.jsonl.gz": {
+      "bytes": 674801,
+      "sha256": "9c6686b67cb032887a41a7329e02c0d59d8fa7a02979b7452a351e5798085585"
+    },
+    "main/qwen-8b.jsonl.gz": {
+      "bytes": 638035,
+      "sha256": "ef660a9c9fd07514d5408dddc52e2e76176eed3ef354debfe19216f9bc2a3caf"
+    },
+    "memory.json": {
+      "bytes": 507,
+      "sha256": "2b95251fd541f3e55648f575f6a1ee140855819037c33ff8165775e2333ec14e"
+    },
+    "model-settings.json": {
+      "bytes": 3969,
+      "sha256": "6d8e6388738cd073c87843a27caf3d5deeb1ece41007feb71bae7e8842a2340a"
+    },
+    "quality.json.gz": {
+      "bytes": 159419,
+      "sha256": "f6a30e63dbed8e780f9c7ebbaf45110a169ce04ef37047edd09a9d65a30b79c5"
+    },
+    "throughput.json": {
+      "bytes": 2810,
+      "sha256": "827e6845fd3a462ee8a84d05c6b3b7ff016bcb3667ac71be6e5af8be9f7d56db"
+    }
+  },
+  "schema_version": 1,
+  "source_artifacts_sha256": {
+    "api-cost/report": "dad7f9cdeb9477a3eb5366ad64a4c60d9fcb72f2240e51b6b768b72700564550",
+    "candidates/fiqa/pilot/bm25": "641124998ccd4f597f1bb06782f3b0f86fe661e7dc133fa85b45f19562ec1470",
+    "candidates/fiqa/pilot/rrf": "153819e03fca5b0d2cde338caa29b5501a576cbee24ddffc45b8085e1420df97",
+    "candidates/fiqa/test/bm25": "bba1d09a2f18433b99e8003426e5891a177842e6270d573d61cf878ecbdf684a",
+    "candidates/fiqa/test/rrf": "4f9c15d630ffca50756df60cc787074ee16d69e1e11cedee0447778131259d91",
+    "candidates/nfcorpus/pilot/bm25": "781727a996f52dad7338b176094420c77372dd471315e5d8c982ab49584ad9b5",
+    "candidates/nfcorpus/pilot/rrf": "338a655133ca0ac885c5a779b68f438a128581c5da5199e28719f70007ba223d",
+    "candidates/nfcorpus/test/bm25": "17ea24686c8b40cc24124e7aad50b5080bd27b49d6cb4c174583af8491274cb1",
+    "candidates/nfcorpus/test/rrf": "4618d2a944c0b7f32ea7c154dbd18121811eb22efb2487993b06fb69b8fc83a2",
+    "candidates/scifact/pilot/bm25": "e21ce194359dea302db0aedf6ebd6a3f1655a40e935ce89cbc1e8c43bac621fa",
+    "candidates/scifact/pilot/rrf": "d8529a2c22ed9ceb6506630a2cbc61ef4ca7187e395dc33162c661edfc9ccc38",
+    "candidates/scifact/test/bm25": "1a392cb2365f467f08cbfee5c4286afd7330e0626957272b6074e12389ec6666",
+    "candidates/scifact/test/rrf": "1677ecb89ed9b036a03454e82b6424139aa6d83616fae5bd4c295c81d85d9e9f",
+    "cpu-retrieval/queries": "1b07304bd3a502726b7141de2d728e8061a267728fe369983ebbe9909a36d4b2",
+    "cpu-retrieval/summary": "4f4c1f360e88acab3225d4ac588f5bd610d2b2bbaf991065277038181c57133b",
+    "evaluation": "09c85ecefb7ae15efae864bfffa013aac41a00ac07e4735a2c7df3544c2e3633",
+    "main/bge/adapter": "cb17f195b7fba2ac0b869e1f39aeed1fa3855c36c3cf483ad993c26bff6e4927",
+    "main/bge/lists": "bc5174756331c60ebe28fcec2f1f1092161a6a0bd1fe444ce96bba683bdeaf9f",
+    "main/jev-openrouter/adapter": "d84765e576e7d44dc731690b8ef3e59d540334c2c91f5cca0be788f6fba7018e",
+    "main/jev-openrouter/lists": "44bcde0fc0449c8f8222dc35dc0446c00275cbd62f13251888777d8a3d608528",
+    "main/laya-multi/adapter": "1b86bc2e1edeee380849190860305e74fd9fb1e8bfcb2070ee11047de6d306e5",
+    "main/laya-multi/lists": "aef220a18572d3eff5464aa654299cbdd217dc282e57416c4534a074347f3a08",
+    "main/qwen-0.6b/adapter": "d53f2b96a7c6c9ddc6b1df24eb84498e021254f2d5f81d5785f1ca8a7bffdd7b",
+    "main/qwen-0.6b/lists": "116ba7f9568f5a0eee4c5d3b53beb735c86dab64ac7df313e82907077d994ad2",
+    "main/qwen-8b/adapter": "317ac68ddb9b3dd8dc632a966368a78b1c6e5f312e24d2fe59a268f70baedb60",
+    "main/qwen-8b/lists": "37d3343c40c2d1c08d3f18b21e2509b21c94512fdf83b5c0851244e920c28c5b",
+    "throughput/report": "ff2f35fa7035c2e69d20cebd2fe5e0df532062dd466439f0b1303608f2a2337f"
+  }
+}

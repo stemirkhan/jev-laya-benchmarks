@@ -1,0 +1,23 @@
+[project]
+name = "jev-laya-benchmarks"
+version = "0.1.0"
+description = "Reproducible input-length audit for a Jev/Laya retrieval experiment"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32,<3", "tokenizers>=0.21,<1",
+    "numpy>=2,<3", "scipy>=1.15,<2", "bm25s>=0.2,<0.3",
+    "PyStemmer>=3,<4", "onnxruntime>=1.22,<2",
+]
+
+[project.optional-dependencies]
+inference = [
+    "torch==2.14.0", "transformers==5.17.0",
+    "safetensors==0.8.0", "huggingface-hub>=1.5,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,25 @@
+{
+  "datasets": ["scifact", "fiqa", "nfcorpus"],
+  "pilot_queries_per_dataset": 4,
+  "pilot_seed": "jev-laya-20260927",
+  "bm25": {"method": "lucene", "k1": 1.2, "b": 0.75, "stopwords": "en", "stemmer": "english", "token_pattern": "(?u)\\b\\w\\w+\\b"},
+  "embedding": {
+    "repo": "jinaai/jina-embeddings-v2-small-en",
+    "revision": "44e7d1d6caec8c883c2d4b207588504d519788d0",
+    "model_file": "model.onnx",
+    "max_length": 8192,
+    "dimensions": 512,
+    "pooling": "attention_mask_mean",
+    "normalization": "l2",
+    "query_prefix": "",
+    "document_prefix": "",
+    "provider": "CPUExecutionProvider",
+    "threads": 4,
+    "max_batch_size": 16,
+    "padded_token_budget": 2048
+  },
+  "search": {"depth": 100, "top_k": 20, "dense_metric": "cosine", "dense_index": "exact_float32"},
+  "rrf": {"k": 60, "weights": [1.0, 1.0], "tie_break": "document_id_lexicographic"},
+  "text": "title + newline + text if title exists; otherwise text; no trimming or truncation",
+  "laya": {"repo": "convaiinnovations/laya-multilingual", "max_len": 8192}
+}

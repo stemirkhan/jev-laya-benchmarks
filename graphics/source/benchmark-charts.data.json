@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "path": "runs/jev-openrouter-20260927/cost-latency-report.json",
+      "sha256": "dad7f9cdeb9477a3eb5366ad64a4c60d9fcb72f2240e51b6b768b72700564550"
+    },
+    {
+      "path": "runs/jev-openrouter-20260927/evaluation-main-all-five/report.json",
+      "sha256": "09c85ecefb7ae15efae864bfffa013aac41a00ac07e4735a2c7df3544c2e3633"
+    },
+    {
+      "path": "runs/jev-openrouter-20260927/final-snapshot/runs/test-jev-openrouter-001/lists.jsonl",
+      "sha256": "44bcde0fc0449c8f8222dc35dc0446c00275cbd62f13251888777d8a3d608528"
+    },
+    {
+      "path": "runs/jev-openrouter-20260927/final-snapshot/runs/test-jev-openrouter-001/summary.json",
+      "sha256": "aa2148bf62f1acbefb12c225c5fab1196c01fca0356b5f94f8f9ae544ed20da2"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-bge-001/lists.jsonl",
+      "sha256": "bc5174756331c60ebe28fcec2f1f1092161a6a0bd1fe444ce96bba683bdeaf9f"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-bge-001/summary.json",
+      "sha256": "771f5b896ef0dfdc58400c6a0c745031cedd4072a469e959594f32f00ce44951"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-laya-multi-001/lists.jsonl",
+      "sha256": "aef220a18572d3eff5464aa654299cbdd217dc282e57416c4534a074347f3a08"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-laya-multi-001/summary.json",
+      "sha256": "9ff071084dc40dfb7ad2e057f3f3bacaf124426a6f5ea4805b641307209b0806"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-qwen-0.6b-001/lists.jsonl",
+      "sha256": "116ba7f9568f5a0eee4c5d3b53beb735c86dab64ac7df313e82907077d994ad2"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-qwen-0.6b-001/summary.json",
+      "sha256": "b9a5332f6d38fe7cb77a0a947d83ada5d73938ec202f632440b150fd1e40a57c"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-qwen-8b-001/lists.jsonl",
+      "sha256": "37d3343c40c2d1c08d3f18b21e2509b21c94512fdf83b5c0851244e920c28c5b"
+    },
+    {
+      "path": "runs/vast-20260927T182111Z/test-qwen-8b-001/summary.json",
+      "sha256": "8af71605713a46724ef2c6d3b09b076740ebbb57947113dd50573067927b7677"
+    },
+    {
+      "path": "runs/vast-throughput-20260927T195100Z/throughput-report.json",
+      "sha256": "ff2f35fa7035c2e69d20cebd2fe5e0df532062dd466439f0b1303608f2a2337f"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "scifact",
+      "label": "SciFact",
+      "queries": 300
+    },
+    {
+      "id": "fiqa",
+      "label": "FiQA",
+      "queries": 648
+    },
+    {
+      "id": "nfcorpus",
+      "label": "NFCorpus",
+      "queries": 323
+    }
+  ],
+  "model_ids": [
+    "jev-openrouter",
+    "laya-multi",
+    "bge",
+    "qwen-0.6b",
+    "qwen-8b"
+  ],
+  "quality": [
+    {
+      "dataset": "scifact",
+      "method": "rrf",
+      "baseline_ndcg10": 0.6961727884296439,
+      "models": {
+        "jev-openrouter": {
+          "ndcg10": 0.7795977307064942
+        },
+        "laya-multi": {
+          "ndcg10": 0.4806905009968121
+        },
+        "bge": {
+          "ndcg10": 0.7412846317361022
+        },
+        "qwen-0.6b": {
+          "ndcg10": 0.762211512073379
+        },
+        "qwen-8b": {
+          "ndcg10": 0.7786702577450852
+        }
+      }
+    },
+    {
+      "dataset": "fiqa",
+      "method": "rrf",
+      "baseline_ndcg10": 0.34053813729144766,
+      "models": {
+        "jev-openrouter": {
+          "ndcg10": 0.4405230370736439
+        },
+        "laya-multi": {
+          "ndcg10": 0.25555187088509196
+        },
+        "bge": {
+          "ndcg10": 0.408911392989062
+        },
+        "qwen-0.6b": {
+          "ndcg10": 0.42011065607969195
+        },
+        "qwen-8b": {
+          "ndcg10": 0.46533275060318574
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "method": "rrf",
+      "baseline_ndcg10": 0.33915063295081005,
+      "models": {
+        "jev-openrouter": {
+          "ndcg10": 0.3804020298146962
+        },
+        "laya-multi": {
+          "ndcg10": 0.28966160058003176
+        },
+        "bge": {
+          "ndcg10": 0.35463847192709064
+        },
+        "qwen-0.6b": {
+          "ndcg10": 0.3618380957165616
+        },
+        "qwen-8b": {
+          "ndcg10": 0.37083498286638555
+        }
+      }
+    },
+    {
+      "dataset": "scifact",
+      "method": "bm25",
+      "baseline_ndcg10": 0.6790938361008712,
+      "models": {
+        "jev-openrouter": {
+          "ndcg10": 0.7770089571607443
+        },
+        "laya-multi": {
+          "ndcg10": 0.46400961385375494
+        },
+        "bge": {
+          "ndcg10": 0.7377674076527324
+        },
+        "qwen-0.6b": {
+          "ndcg10": 0.7590401426356701
+        },
+        "qwen-8b": {
+          "ndcg10": 0.7747264809440726
+        }
+      }
+    },
+    {
+      "dataset": "fiqa",
+      "method": "bm25",
+      "baseline_ndcg10": 0.25319188881146765,
+      "models": {
+        "jev-openrouter": {
+          "ndcg10": 0.3649048761924926
+        },
+        "laya-multi": {
+          "ndcg10": 0.22491845707290786
+        },
+        "bge": {
+          "ndcg10": 0.34621802225675397
+        },
+        "qwen-0.6b": {
+          "ndcg10": 0.353771668156045
+        },
+        "qwen-8b": {
+          "ndcg10": 0.38488099556784144
+        }
+      }
+    },
+    {
+      "dataset": "nfcorpus",
+      "method": "bm25",
+      "baseline_ndcg10": 0.31873956865783704,
+      "models": {
+        "jev-openrouter": {
+          "ndcg10": 0.3571229017666345
+        },
+        "laya-multi": {
+          "ndcg10": 0.2695745243448766
+        },
+        "bge": {
+          "ndcg10": 0.3393375962829903
+        },
+        "qwen-0.6b": {
+          "ndcg10": 0.3516305307235616
+        },
+        "qwen-8b": {
+          "ndcg10": 0.3522054852500553
+        }
+      }
+    }
+  ],
+  "latency": [
+    {
+      "model": "jev-openrouter",
+      "p50_ms": 1751.1743567883968,
+      "p95_ms": 1962.507825484499,
+      "n_lists": 2542
+    },
+    {
+      "model": "laya-multi",
+      "p50_ms": 91.53764747316018,
+      "p95_ms": 146.4476091379765,
+      "n_lists": 2542
+    },
+    {
+      "model": "bge",
+      "p50_ms": 72.01118749799207,
+      "p95_ms": 107.33735866378991,
+      "n_lists": 2542
+    },
+    {
+      "model": "qwen-0.6b",
+      "p50_ms": 142.7430349867791,
+      "p95_ms": 223.68746928405008,
+      "n_lists": 2542
+    },
+    {
+      "model": "qwen-8b",
+      "p50_ms": 857.4598949635401,
+      "p95_ms": 1216.696686710929,
+      "n_lists": 2542
+    }
+  ],
+  "throughput": [
+    {
+      "model": "laya-multi",
+      "pairs_per_second": 152.845843723027,
+      "measured_pairs": 1440,
+      "passes": 3,
+      "min_pass_pairs_per_second": 151.74113885967645,
+      "max_pass_pairs_per_second": 153.67696904803987
+    },
+    {
+      "model": "bge",
+      "pairs_per_second": 168.48257389577236,
+      "measured_pairs": 1440,
+      "passes": 3,
+      "min_pass_pairs_per_second": 166.1112525853151,
+      "max_pass_pairs_per_second": 170.88626405005647
+    },
+    {
+      "model": "qwen-0.6b",
+      "pairs_per_second": 91.02501306822289,
+      "measured_pairs": 1440,
+      "passes": 3,
+      "min_pass_pairs_per_second": 88.98408236410249,
+      "max_pass_pairs_per_second": 92.10490221676821
+    },
+    {
+      "model": "qwen-8b",
+      "pairs_per_second": 20.518322731383297,
+      "measured_pairs": 1440,
+      "passes": 3,
+      "min_pass_pairs_per_second": 20.403637876364378,
+      "max_pass_pairs_per_second": 20.591220905319993
+    }
+  ],
+  "memory": [
+    {
+      "model": "laya-multi",
+      "allocated_gib": 6.535527229309082,
+      "reserved_gib": 29.974609375
+    },
+    {
+      "model": "bge",
+      "allocated_gib": 1.370556354522705,
+      "reserved_gib": 2.033203125
+    },
+    {
+      "model": "qwen-0.6b",
+      "allocated_gib": 1.5011506080627441,
+      "reserved_gib": 2.080078125
+    },
+    {
+      "model": "qwen-8b",
+      "allocated_gib": 15.831179141998291,
+      "reserved_gib": 17.4921875
+    }
+  ],
+  "notes": {
+    "quality": "Test NDCG@10; macro mean by dataset and retrieval method; 20 identical full-document candidates per model; quality repeat 0.",
+    "confidence_intervals": "Omitted: source CI95 describes paired reranker-minus-baseline differences, not model NDCG@10 means or pairwise model significance.",
+    "latency": "Pooled 2542 measured full top-20 reranking lists per model across both retrieval methods and all three datasets; excludes two warmup lists, model loading, retrieval and generation; not an average of dataset percentiles.",
+    "percentile_method": "Linear interpolation at (n - 1) * p (Hyndman-Fan type 7).",
+    "api_latency": "Jev 1.13 via OpenRouter includes network; one list at a time with four concurrent HTTP requests inside each list; separate API throughput not measured.",
+    "jev_response_model": "typesafe/jev-1.13-20260917",
+    "gpu": "NVIDIA GeForce RTX 5090, 32 GB; local configurations run sequentially; throughput measured on a different physical GPU of the same model.",
+    "local_configuration": {
+      "laya-multi": {
+        "repo": "convaiinnovations/laya-multilingual",
+        "dtype": "fp32",
+        "batch_size": 4,
+        "max_length": 8192
+      },
+      "bge": {
+        "repo": "BAAI/bge-reranker-v2-m3",
+        "dtype": "fp16",
+        "batch_size": 4,
+        "max_length": 8192
+      },
+      "qwen-0.6b": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "dtype": "bf16",
+        "batch_size": 4,
+        "max_length": 32768
+      },
+      "qwen-8b": {
+        "repo": "Qwen/Qwen3-Reranker-8B",
+        "dtype": "bf16",
+        "batch_size": 2,
+        "max_length": 32768
+      }
+    },
+    "throughput": "Three measured passes of 480 full query-document pairs after 40 warmup pairs; combined rate = 1440 / sum(pass seconds); fixed sequential batches, not maximum hardware throughput; no score caching; min/max are pass extrema, not confidence intervals.",
+    "memory": "Maximum per-list CUDA allocator allocated/reserved peaks over measured main-test lists, not the throughput run; GiB = bytes / 2^30; reserved includes allocator cache and is not a minimum VRAM requirement; API memory not measured."
+  }
+}
